@@ -1,12 +1,39 @@
+.clock {
+    display: flex;
+    text-align: left;
+    background: black;
+    color: white;
+    justify-content: center;
+}
 
-/* 
+.Thou {
+    font-size: 5rem;
+    padding: 2rem;
+    margin: 1rem;
+}
+.Hun {
+    font-size: 5rem;
+    padding: 2rem;
+    margin: 1rem;
+}
+.Tenz {
+    font-size: 5rem;
+    padding: 2rem;
+    margin: 1rem;
+}
+.Zedd {
+    font-size: 5rem;
+    padding: 2rem;
+    margin: 1rem;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+.clockSvg {
+    background: black;
+    height: 7rem;
+    width: 7rem;
+    display: flex;
+    justify-content: center;
+    padding: auto;
+    margin-top: 2.5rem;
+    margin-right: 2.5rem;
+}
